@@ -1,0 +1,289 @@
+/* global style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* for extra small screen */
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* for all screen size without large screen */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/*  Header pert start */
+.top-banner {
+    background-image: url('../images/bg-image/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.half-width h1 {
+    color: #ff1c42;
+}
+
+.btn {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to right,#ff1c42,#ff1c7b);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.space-top img {
+    display: none;
+}
+/* header part end */
+
+
+
+/* biography part start */
+.biography-area {
+    background-image: url('../images/bg-image/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* biography part end */
+
+
+
+/* letest work area start */
+.latest-work-area {
+    background-image: url('../images/bg-image/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.latest-work-area h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+}
+
+.latest-work {
+  margin-bottom: 70px;
+}
+
+.latest-work img {
+    width: 100%;
+}
+/* letest work area end */
+
+
+
+
+/* clien area start */
+.client-area {
+    background-image: url('../images/bg-image/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.client-area h1 {
+    text-align: center;
+}
+
+.identity {
+    text-align: center;
+}
+
+.position {
+    font-size: small;
+}
+
+#special-messege {
+    margin: 20px auto 40px auto;
+    text-align: center;
+}
+
+.large-btn {
+    display: block;
+    text-align: center;
+}
+
+.identity p, .large-btn h3{
+    margin-top: -15px;
+}
+/* client area end */
+  
+
+/* team area part start */
+.team-area {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.team-area h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.team-member {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.team-member img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.info {
+    padding: 0 10px 20px 10px;
+    text-align: center;
+}
+/* team area part end */
+
+
+/* footer area */
+footer p {
+    text-align: center;
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/* small screen view */
+@media screen and (min-width: 768px){
+    /*heading for larger than mobile screen start */
+    h1 {
+        font-size: 50px;
+    }
+    
+    h2 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+    
+    h3 {
+        font-size: 25px;
+    }
+    /* heading for larger than mobile screen end */
+     
+    section {
+        height: 450px;
+    }
+
+    /* top-header and biography part */
+    .half-width {
+        width: 45%;
+        float: left;
+        margin-left: 3.33%;
+        padding-top: 50px;
+    }
+
+    .half-width.space-top img {
+        display: block;
+    }
+
+    /* latest-work part */
+    .latest-work {
+        width: 30%;
+        float: left;
+        margin-left: 2.5%;
+        margin-bottom: 0;
+    }
+
+    /* client part */
+    .client-area {
+        height: 500px;
+    }
+
+    #special-messege {
+        width: 450px;
+    }
+
+    .large-btn-container {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    /* team area */
+    .team-area {
+        height: 650px;
+    }
+    
+}
+
+
+
+/* medium screen view */
+@media screen and (min-width: 992px){
+    section {
+        height: 500px;
+    }
+
+    .half-width {
+        padding-top: 0;
+    }
+
+    .space-top {
+        padding-top: 50px;
+    }
+
+    .client-area {
+        height: 550px;
+    }
+
+    #special-messege {
+        margin: 30px auto 50px auto;
+    }
+
+    .team-area {
+        height: 700px;
+    }
+}
+
+
+/* large screen view */
+@media screen and (min-width: 1200px){
+    section {
+        height: 550px;
+    }
+
+    .container {
+        width: 1170px;
+    }
+
+    .client-area h1 {
+        margin-bottom: 80px;
+    }
+
+    .team-area {
+        height: 750px;
+    }
+    
+}
