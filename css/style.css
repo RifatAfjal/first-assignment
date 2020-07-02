@@ -39,6 +39,10 @@ h3 {
     color: #ff1c42;
 }
 
+.half-width p {
+    text-align: justify;
+}
+
 .btn {
     font-size: 16px;
     text-decoration: none;
