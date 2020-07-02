@@ -39,6 +39,10 @@ h3 {
     color: #ff1c42;
 }
 
+.half-width p {
+    text-align: justify;
+}
+
 .btn {
     font-size: 16px;
     text-decoration: none;
@@ -233,7 +237,7 @@ footer p {
 
     /* team area */
     .team-area {
-        height: 650px;
+        height: 700px;
     }
     
 }
@@ -263,7 +267,7 @@ footer p {
     }
 
     .team-area {
-        height: 700px;
+        height: 750px;
     }
 }
 
@@ -283,7 +287,7 @@ footer p {
     }
 
     .team-area {
-        height: 750px;
+        height: 800px;
     }
     
 }
